@@ -21,19 +21,6 @@ body {
 }
 
 
-nav {
-    position: fixed;
-    top: 0;
-    text-align: center;
-}
-
-footer {
-    margin-bottom: none;
-    position: fixed;
-    bottom: 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
 h2 {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 50px;
@@ -41,7 +28,7 @@ h2 {
     margin-right: 4%;
 }
 
-section img {
+    .logo {
     width: 200px;
     height: 170px;
 }
@@ -82,21 +69,33 @@ p {
     font-weight: bold;
     width: 25vw;
 }
+    nav,
+    footer {
+        background-color: #ffa87f;
+        width: 100%;
+        height: 90px;
+    }
+    
+    nav {
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
 
-
-nav,
 footer {
-    background-color: #ffa87f;
-    width: 100%;
-    height: 90px;
+    margin-bottom: none;
+    position: fixed;
+    bottom: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+div img {
+    width: 28%;
+    margin: 5px 10vw;
+   
 }
 
 
 
-
-
-
-
-
-
-
+    
+    
