@@ -24,13 +24,13 @@ body {
 h2 {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 50px;
-    float: right;
-    margin-right: 4%;
+    width: 330px;
+    margin: 0;
 }
 
     .logo {
-    width: 200px;
-    height: 170px;
+    width: 250px;
+    height: 200px;
 }
 
 nav a {
@@ -47,17 +47,17 @@ nav a {
     -webkit-text-fill-color: transparent;
 }
 
+
+
 a:hover {
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-section {
-    width: 50% position: absolute;
-    margin-top: 120px;
-    margin-left: 35px;
-}
+
+
+
 
 
 p {
@@ -67,7 +67,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    width: 25vw;
+    width: 27vw;
 }
     nav,
     footer {
@@ -86,14 +86,71 @@ footer {
     margin-bottom: none;
     position: fixed;
     bottom: 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    margin: 110px 0px 0px 40vh;
 }
 
 div img {
-    width: 28%;
-    margin: 5px 10vw;
-   
+    width: 17vw;
 }
+
+section {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 35px;
+}
+
+h3 {
+    font-size: 70px;
+    position: absolute;
+    left: 39vh;
+    
+}
+
+.phone {
+    top: 30vh;
+}
+
+.Email {
+    top: 40vh;
+
+}
+
+.prices {
+    position: absolute;
+    right: 100px;
+    top: 30vh;
+}
+
+
+strong {
+    font-size: 75px;
+    text-shadow: 6px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
