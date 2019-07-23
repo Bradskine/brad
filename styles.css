@@ -28,6 +28,11 @@ h2 {
     margin: 0;
 }
 
+
+div img {
+    width: 17vw;
+}
+
     .logo {
     width: 250px;
     height: 200px;
@@ -89,13 +94,7 @@ footer {
     text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-div {
-    margin: 110px 0px 0px 40vh;
-}
 
-div img {
-    width: 17vw;
-}
 
 section {
 /*    position: absolute;*/
@@ -105,42 +104,43 @@ section {
     margin-top: 120px;
     margin-left: 35px;
     justify-content: left;
+    height: 800px;
 }
 
 h3 {
-    font-size: 70px;
-/*    position: absolute;*/
-    text-align: center;
+    font-size: 5vw;
+    text-align: left;
+    margin-top: 70px;
+       -webkit-text-stroke: 0.8px white;
 }
 
 
-.prices {
-    right: 100px;
-}
+
 
 
 strong {
-    font-size: 75px;
-   -webkit-text-stroke: 0.8px white;
+   -webkit-text-stroke: 1.4px white;
 }
 
 
 
 .left {
-    width: 40%;
+    width: 27%;
     margin: 0px;
 }
 
 .right {
-    width: 60%;
-    margin: 0px;
+    width: 73%;
+    margin-top: 8vh;
 }
 
 
 
 
-
-
+.middle {
+    width: 33%;
+    
+}
 
 
 
