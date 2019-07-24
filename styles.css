@@ -23,14 +23,14 @@ body {
 
 h2 {
     font-family: 'Noto Sans HK', sans-serif;
-    font-size: 50px;
-    width: 330px;
+    font-size: 40px;
+    width: 250px;
     margin: 0;
 }
 
 
 div img {
-    width: 17vw;
+    width:  140px;
 }
 
     .logo {
@@ -63,17 +63,6 @@ a:hover {
 
 
 
-
-
-p {
-    font-size: 45px;
-    margin-bottom: 5px;
-    background: -webkit-linear-gradient(#fffdfa, #fff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    width: 27vw;
-}
     nav,
     footer {
         background-color: #ffa87f;
@@ -111,7 +100,7 @@ h3 {
     font-size: 5vw;
     text-align: left;
     margin-top: 70px;
-       -webkit-text-stroke: 0.8px white;
+       -webkit-text-stroke: 0.1vw white;
 }
 
 
@@ -119,7 +108,7 @@ h3 {
 
 
 strong {
-   -webkit-text-stroke: 1.4px white;
+   -webkit-text-stroke: 0.13vw white;
 }
 
 
@@ -131,20 +120,34 @@ strong {
 
 .right {
     width: 73%;
-    margin-top: 8vh;
+    margin-top: 3%;
 }
-
 
 
 
 .middle {
     width: 33%;
-    
 }
 
 
 
+p {
+    font-size: 45px;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(#fffdfa, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
 
+
+
+.shopright{
+    margin-top: 15vh;
+    width: 40%;
+    font-size: 5px;
+    text-align: center;
+}
 
 
 
