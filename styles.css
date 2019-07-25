@@ -33,7 +33,7 @@ h2 {
 
 
 div img {
-    width:  140px;
+    height: 13vh;
     border:5px solid black;
 }
 
@@ -43,7 +43,7 @@ div img {
     border: none;
 }
 
-nav a {
+ a:link {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 55px;
     text-decoration: none;
@@ -56,6 +56,7 @@ nav a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .by {
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
@@ -72,7 +73,6 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 
 
     nav,
