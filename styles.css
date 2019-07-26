@@ -19,8 +19,13 @@ body {
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 h2 {
     font-size: 42px;
@@ -32,8 +37,12 @@ h2 {
 
 
 div img {
-    height: 11vh;
+    height: 14vw;
     border: 5px solid black;
+}
+
+img.bottom {
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -138,10 +147,22 @@ strong {
 .mid {
     width: 33%;
     text-align: center;
+    height: 70vh;
+    overflow-y: scroll;
 }
 
-
-
+.mid ::-webkit-scrollbar{
+        width: 10px;
+    }
+.mid ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+.mid::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+.mid::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 p {
     font-size: 45px;
     margin-bottom: 5px;
