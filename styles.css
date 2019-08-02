@@ -132,6 +132,8 @@ strong {
     color: white;
 }
 
+
+/*codes left of all pages margins*/
 .left {
     width: 27%;
     margin: 0px;
@@ -164,6 +166,7 @@ p {
    text-align: center;
 }
 
+/*for right of shop page*/
 .shopright {
     margin-top: 15vh;
     width: 50%;
